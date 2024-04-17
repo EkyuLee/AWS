@@ -1,0 +1,85 @@
+Region	
+	- AWS가 제공되는 서비스 지역을 나눈것이다.
+	
+AZ
+  - Availability Zone
+	
+IAM	
+	- Identity and Access Management
+	
+CLI	
+	- Command Line Interface
+	
+EC2	
+	- Amazon Elastic Computing Cloud
+	
+S3	
+	- Simple Storage Service
+	
+EBS	
+	- Elastic Block Store
+	
+AMI	
+	- Amazon Machine Image
+	
+EFS	
+	- Elastic File System
+	
+ALB	
+	- Application Load Balancer
+
+NLB	
+	- Network Load Balancer
+
+GWLB	
+	- Gateway Load Balancer
+
+AWS Elastic Beanstalk		
+	- Application 과 Service를 쉽게 배포하고 관리할 수 있게 해주는 서비스 명칭	
+		
+AWS Cloudformation		
+	- Infra를 코드로 정의하고 관리하기 위한 서비스 이다. 	
+		
+AWS Integration & Messaging		
+	- Amazon SQS(Simple Queue Service)	
+		- Message Queue를 이용한 전송 서비스
+	- Amazon SNS(Simple Notification Service)	
+		- Publich, Subscribe 패턴을 사용한 메세지 전송 서비스
+	- Amazon Kinesis	
+		- Streaming 데이터를 처리하기 위한 서비스
+		
+AWS Monitoring & Audit		
+	- Amazon CloudWatch	
+		- 리소스 성능 모니터링
+	- AWS X-Ray	
+		- 분산 어플리케이션 성능 분석 및 디버깅
+	- AWS CloudTrail	
+		- API 활동 추적 및 로깅
+		
+AWS serverless : lambda		
+	- 서버 없이 외부 요청에 대한 이벤트처리 (응답)를 할 수 있다. 인프라 관리에 대한 부담이 적다. 예를들어 Amazon S3에 새로운 파일이 업로드 되었을때 Lambda를 트리거할 수있다.
+		
+AWS serverless : DynamoDB		
+	- 서버 없이 데이터베이스를 활용할 수 있다 . NoSQL 데이터베이스 서비스이다. 분산되어 저장 되기 때문에 재부팅 시에도 데이터가 안전하게 보존되어 있다. 확장성이 쉽다.
+		
+AWS serverless : API Gateway		
+	- 서버 없이 API(HTTP) 를 운영할 수 있는 인프라를 제공한다. HTTP만 사용가능하다. Lambda와 조합하여 활용가능하며, 개발 언어에 제약이 없다.
+		
+AWS CICD		
+	- Commit, PIpeline, Build, Deploy	
+		
+AWS SAM		
+	- Serverless Application Model	
+	- Lambda, DynamoDB, API gateway, CICD 를 이용한것을 한곳에서 관리하는 기능이다. 	
+		
+AWS CDK		
+	- AWS Cloud Development Kit	
+	- 코드를 이용하여 AWS의 리소스를 제어할 수 있는 기능이다. 	
+		
+Cognito: Cognito User Pools, Cognito Identity Pools & Cognito Sync		
+	- Cognito	
+		- 사용자 인증 및 권한부여에 사용되는 서비스
+	- User Pools	
+		- 사용자를 위한 인증 서비스
+	- Identity pools & sync	
+		- 엑세스 권한 부여 및 각 데이터베이스간 싱크를 맞춰주는 서비스
